@@ -194,7 +194,7 @@ def urllib_parse_urlunpars_test():
     print(urllib.parse.urlunparse(data))
 
 
-# 另一个拼接用的方法：urllib.parse.urljoin 这个接拼只管很多，出现多个网址时使用最后一个
+# 另一个拼接用的方法：urllib.parse.urljoin 这个接拼直观很多，出现多个网址时使用最后一个
 def urllib_parse_urljoin_test():
     print(urllib.parse.urljoin('http://www.baidu.com', 'FAQ.html'))
     print(urllib.parse.urljoin('http://www.baidu.com', 'https://pythonsite.com/FAQ.html'))
