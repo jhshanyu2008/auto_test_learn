@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e4c392d-f788-429c-b6bd-2c12216a4b4b" name="Default" comment="">
+    <list default="true" id="6e4c392d-f788-429c-b6bd-2c12216a4b4b" name="Default" comment="urllib_learn">
+      <change afterPath="$PROJECT_DIR$/requests_learn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urllib_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_learn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,23 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urllib_learn.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/urllib_learn.py">
+      <file leaf-file-name="requests_learn.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requests_learn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="194" lean-forward="true" selection-start-line="194" selection-end-line="194" />
+            <state relative-caret-position="618">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
-                <element signature="e#75#98#0" expanded="true" />
+                <element signature="e#74#117#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookiejar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/envs/python35/lib/python3.5/http/cookiejar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31500">
-              <caret line="1754" column="6" selection-start-line="1754" selection-start-column="6" selection-end-line="1754" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -52,6 +43,8 @@
       <list>
         <option value="$PROJECT_DIR$/urllib_test_01.py" />
         <option value="$PROJECT_DIR$/urllib_learn.py" />
+        <option value="$PROJECT_DIR$/Requests_learn.py" />
+        <option value="$PROJECT_DIR$/requests_learn.py" />
       </list>
     </option>
   </component>
@@ -96,7 +89,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.requests_learn">
+    <configuration name="requests_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests_learn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="urllib_test_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,8 +126,13 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.urllib_test_01" />
+      <item itemvalue="Python.requests_learn" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.requests_learn" />
         <item itemvalue="Python.urllib_test_01" />
       </list>
     </recent_temporary>
@@ -139,17 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1526917622121</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="urllib_learn">
+      <created>1526917860973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526917860973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="-11" width="1869" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18621065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18621065" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005429" side_tool="true" weight="0.23133543" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945712" weight="0.34700316" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945712" weight="0.23678647" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -178,6 +200,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/urllib_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="191" column="34" lean-forward="true" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
+          <folding>
+            <element signature="e#75#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python35/lib/python3.5/http/cookiejar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31572">
+          <caret line="1754" column="6" selection-start-line="1754" selection-start-column="6" selection-end-line="1754" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/urllib_learn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1944">
@@ -228,20 +267,27 @@
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/python35/lib/python3.5/http/cookiejar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31500">
+        <state relative-caret-position="18">
           <caret line="1754" column="6" selection-start-line="1754" selection-start-column="6" selection-end-line="1754" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookie.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/urllib_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="194" lean-forward="true" selection-start-line="194" selection-end-line="194" />
+        <state relative-caret-position="54">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
             <element signature="e#75#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#74#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
